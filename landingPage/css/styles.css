@@ -199,8 +199,8 @@ ul{
   #features {
     margin-top: 30px;
   }
-  .icon .suspension{
-      src: url('img/suspension.png');
+  .suspension::after{
+    background:url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSj3XfIpf-OOJRCcWz4iN2CU3qMKVVbj0p0bRvKNGVo1U9pk_8ZIlyR8pWreA');
   }
   
   #features .icon {
@@ -338,4 +338,6 @@ ul{
     font-size: 0.9em;
     color: #444;
   }
-  
+  p{
+      font-family: 'Zen Antique Soft', serif;
+  }
