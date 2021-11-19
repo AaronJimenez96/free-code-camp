@@ -1,19 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Media query</title>
+    <script type="text/javascript" src="js/addList.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>TO DO list</title>
 </head>
+
 <body>
-    <div class="container">
-        <div id="header">Header</div>
-        <div id="nav">Navbar</div>
-        <section id="section">Section</section>
-        <article id="article">Article</article>
-        <footer id="footer">Footer</footer>
+    <div id="myDIV" class="header">
+        <h2>My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <span onclick="newElement()" class="addBtn">Add</span>
     </div>
-</body>
+
+    <ul id="myUL">
+        <li>Hit the gym</li>
+        <li class="checked">Feed the cat</li>
+        <li>Meet George</li>
+        <li>Buy eggs</li>
+        <li>Read a book</li>
+        <li>Organize office</li>
+    </ul>
+    <section class="contact-section">
+        <div class="contact-links">
+            <a href="https://facebook.com/freecodecamp" target="_blank" class="btn contact-details"><i
+                    class="fab fa-facebook-square"></i> Facebook</a>
+            <a id="profile-link" href="https://github.com/AaronJimenez96" target="_blank" class="btn contact-details"><i
+                    class="fab fa-github"></i> GitHub</a>
+            <a href="mailto:aajc_96@hotmail.com" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a>
+            <a id="profile-link" href="https://github.com/AaronJimenez96" target="_blank" class="btn contact-details"><i
+                    class="fab fa-linkedin"></i> LinkedIn</a>
+        </div>
+    </section>
+    </body>
 </html>
