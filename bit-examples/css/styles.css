@@ -130,7 +130,13 @@
     padding: 0 2rem;
     background: #003049;
   }
-  
+  @media (max-width:375px) {
+    .contact-section{
+      display: block;
+      text-align: center;
+    }
+    
+  }
   .contact-links {
     display: flex;
     justify-content: center;
