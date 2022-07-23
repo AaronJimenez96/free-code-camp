@@ -25,4 +25,3 @@ console.log(deleteFromArray);
 /*Delete second index of array */
 let deleteFromArray = array.pop([2]);
 console.log(deleteFromArray);
-
